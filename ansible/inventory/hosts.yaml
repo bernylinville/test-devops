@@ -1,0 +1,9 @@
+---
+kubernetes:
+  children:
+    controllers:
+      hosts:
+        "k8s-1":
+          ansible_user: "pukka"
+          ansible_host: "10.0.12.129"
+          ansible_ssh_private_key_file: "/Users/kchou/.ssh/id_ed25519"
